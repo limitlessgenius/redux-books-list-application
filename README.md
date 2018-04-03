@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+# Redux Books List Simple Web Application 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+### Summary
 
-### Getting Started
+In this redux centered simple web application, I've settled the most fundamental bases on how a client side react application works hooked to the Redux library for state management. 
 
-There are two methods for getting started with this repo.
+That includes Actions, Reducers, and Containers. 
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Redux is characterized by centralizing all the application's state into a single plain javascript object. 
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+This exercise is been useful to identify the critical connection points that enable a component to be aware of the application state (mapStateToProps), and to allow for this state to be changed in response only to dispatched actions (mapDispatchToProps).
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+A 360º overview of the redux cycle is been achieved through the completion of this exercise. 
 
-```
-> npm install
-> npm start
-```
+
